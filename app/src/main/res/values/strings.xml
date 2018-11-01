@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TestContentProvider</string>
+    <string name="desc">This app contains the data which is saved from AccessContentProvider app.</string>
 </resources>

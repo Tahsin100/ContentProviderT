@@ -11,7 +11,7 @@ import android.provider.BaseColumns;
 
 public class MovieDB {
 
-    public static final String AUTHORITY = BuildConfig.APPLICATION_ID + "provider.MovieDB";
+    public static final String AUTHORITY = BuildConfig.APPLICATION_ID + ".provider.MovieList";
     public static final String PATH = "/movies";
     public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + PATH);
     public static final String MOVIE_LIST = ContentResolver.CURSOR_DIR_BASE_TYPE + BuildConfig.APPLICATION_ID + ".movies";

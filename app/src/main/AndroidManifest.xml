@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name=".MyProvider"
+            android:authorities="${applicationId}.provider.MovieList"
+            android:exported="true" />
+
     </application>
+
+
 
 </manifest>
